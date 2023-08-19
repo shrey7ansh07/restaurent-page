@@ -1,0 +1,58 @@
+@import url(main.css);
+.heading
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:1rem;
+    font-size:max(3rem,35px);
+    height: 20vh;
+    width: 50vw;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    color: black;
+    overflow-wrap: normal;
+
+}
+.description
+{
+    text-align: center;
+    width:40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+    border: 3px solid rgba(219, 214, 214,0.5);
+    background:rgba(219, 214, 214,0.5);
+    border-radius: 20px;
+    font-weight: 500;
+
+
+}
+.imagediv
+{
+    display: flex;
+    gap: 3rem;
+}
+.image
+{
+    height:20vh;
+    width:20vw;
+    border: 4px solid black;
+    border-radius: 10vh;
+    margin-bottom:3rem;
+}
+.para
+{
+    width:40vw;
+    font-size: 1.2rem;
+    border: 3px solid rgba(219, 214, 214,0.5);
+    background:rgba(219, 214, 214,0.5);
+    border-radius: 20px;
+    font-weight: 500;
+    padding: 1rem 2rem;
+    text-align: center;
+}

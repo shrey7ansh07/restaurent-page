@@ -1,0 +1,26 @@
+button
+{
+    color: white;
+    font-size: 15px;
+    background-color: rgb(56, 55, 55);
+    border-radius:4px;
+    cursor:pointer;
+    width:min(200px,10vw);
+    height:max(50px,5vh);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* button:active
+{
+    transform: scale(1.05);
+} */
+
+
+.buttoncontainer
+{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
